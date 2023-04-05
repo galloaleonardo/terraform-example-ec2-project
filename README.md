@@ -9,6 +9,12 @@ export AWS_SECRET_ACCESS_KEY="<your-secret-access-key>"
 
 - Generate an EC2 keypair and place it in the `terraform.tfvars` file in the `ec2.key_name` variable.
 
+- Run Terraform init
+
+```sh
+terraform init
+```
+
 - Run Terraform plan
 
 ```sh
